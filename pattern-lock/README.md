@@ -59,9 +59,9 @@ x.init() //init
 
 ```javascript
 /**
- * @return {Array} password
+ * @return {Array} input
  */
-x.password
+x.input
 ```
 
 Returns an array of objects containing the order of touch points.
