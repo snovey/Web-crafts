@@ -13,6 +13,7 @@
 ## Pattern Lock
 
 更加容易的创建出图案锁屏，demo:
+
 ![Pattern-lock](https://github.com/snovey/Web-crafts/raw/master/images/pattern-lock.gif)
 
 # 许可
