@@ -2,7 +2,7 @@
 
 Easier to create a pattern lock.
 
-![Pattern-lock](//github.com/snovey/Web-crafts/raw/master/images/pattern-lock.gif)
+![Pattern-lock](https://github.com/snovey/Web-crafts/raw/master/images/pattern-lock.gif)
 
 # Quick Start
 

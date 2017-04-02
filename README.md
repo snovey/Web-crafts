@@ -13,7 +13,7 @@ The project is continually updated ...
 ## Pattern lock
 
 Easier to create a pattern lock. demo:
-![Pattern-lock](//github.com/snovey/Web-crafts/raw/master/images/pattern-lock.gif)
+![Pattern-lock](https://github.com/snovey/Web-crafts/raw/master/images/pattern-lock.gif)
 
 # License information
 
