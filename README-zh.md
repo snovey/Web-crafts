@@ -12,9 +12,11 @@
 
 ## Pattern Lock
 
-更加容易的创建出图案锁屏，demo:
-
 ![Pattern-lock](https://github.com/snovey/Web-crafts/raw/master/images/pattern-lock.gif)
+
+更加容易的创建出图案锁屏。
+
+在线 Demo: [pattern-lock](https://www.snovey.com/Web-crafts/pattern-lock/demo.html)
 
 # 许可
 

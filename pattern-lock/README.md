@@ -1,8 +1,10 @@
 # Description
 
+![Pattern-lock](https://github.com/snovey/Web-crafts/raw/master/images/pattern-lock.gif)
+
 Easier to create a pattern lock.
 
-![Pattern-lock](https://github.com/snovey/Web-crafts/raw/master/images/pattern-lock.gif)
+Online demo: [pattern-lock](https://www.snovey.com/Web-crafts/pattern-lock/demo.html)
 
 # Quick Start
 
@@ -85,3 +87,5 @@ This method can be used for error warnings and may need to be used in conjunctio
 # Note
 
 The size of the canvas is specified by the `width` and` height` attributes of the element, and not by CSS.
+
+If you are interest in how to make this project, please visit [my blog](https://www.snovey.com/2017/04/pattern-lock/).
