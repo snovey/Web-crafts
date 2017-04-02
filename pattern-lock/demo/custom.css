@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+  border-bottom: 2px solid black
+}
+body {
+  text-align: center;
+  background:whitesmoke;
+  background-image:
+    linear-gradient(whitesmoke 38px,transparent 0),
+    linear-gradient(90deg,silver 2px,transparent 0);
+  background-size:40px 40px,40px 40px;
+}
+
+#password {
+  /*width: 72vw;*/
+  margin: auto;
+}
+
+/*#password .point {
+  width: 12vw;
+  height: 12vw;
+  background-color: #ffa726;
+  border-radius: 6vw;
+  margin: 6vw 6vw;
+  float: left;
+}*/
+
+.hint, .choose {
+  height: 25px;
+  margin: 3vw;
+  font-size: 20px;
+  padding: 10px;
+  border-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
