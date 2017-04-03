@@ -16,7 +16,7 @@
 
 更加容易的创建出图案锁屏。
 
-在线 Demo: [pattern-lock](https://www.snovey.com/Web-crafts/pattern-lock/demo.html)
+在线 Demo: [pattern-lock](https://snovey.github.io/Web-crafts/pattern-lock/demo.html)
 
 # 许可
 

@@ -16,7 +16,7 @@ The project is continually updated ...
 
 Easier to create a pattern lock.
 
-Online demo: [pattern-lock](https://www.snovey.com/Web-crafts/pattern-lock/demo.html)
+Online demo: [pattern-lock](https://snovey.github.io/Web-crafts/pattern-lock/demo.html)
 
 # License information
 

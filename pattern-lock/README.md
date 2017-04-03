@@ -4,13 +4,17 @@
 
 Easier to create a pattern lock.
 
-Online demo: [pattern-lock](https://www.snovey.com/Web-crafts/pattern-lock/demo.html)
+Online demo: [pattern-lock](https://snovey.github.io/Web-crafts/pattern-lock/demo.html)
 
 # Quick Start
+
+HTML code
 
 ```html
 <canvas id="password" width="300px" height="300px" style="display: inline-block;">
 ```
+JavaScript code
+
 ```javascript
 let x = new Wlock({
   container: 'password'
