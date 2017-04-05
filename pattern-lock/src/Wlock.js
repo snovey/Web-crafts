@@ -81,6 +81,12 @@
         self.context.clearRect(0, 0, self.context.canvas.width, self.context.canvas.height);
         self.drawCircle();
         if(self.input.length > 0) {
+          //绘制第一个触点
+          self.context.beginPath();
+          self.context.fillStyle = self.lineColor;
+          self.context.arc((2*self.input[0].x+1)*self.xunit, (2*self.input[0].y+1)*self.yunit, self.radius/2, 0, 2 * Math.PI, true);
+          self.context.closePath();
+          self.context.fill();
           self.input.reduce((prev, next) => self.drawLine(prev, next));
         }
         // console.log('touchmove');
@@ -177,7 +183,7 @@
       let tempPoint = this.pointBorderColor;
       this.lineColor = color.lineColor || this.lineColor;
       this.pointBorderColor = color.pointBorderColor || this.pointBorderColor;
-      this.input.reduce((prev, next) => this.drawLine(prev, next));
+      if (this.input.length > 0) this.input.reduce((prev, next) => this.drawLine(prev, next));
       this.lineColor = tempLine;
       this.pointBorderColor = tempPoint;
     }
