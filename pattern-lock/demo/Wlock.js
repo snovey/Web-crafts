@@ -185,6 +185,19 @@
       let tempPoint = this.pointBorderColor;
       this.lineColor = color.lineColor || this.lineColor;
       this.pointBorderColor = color.pointBorderColor || this.pointBorderColor;
+      if (this.input.length === 1) {
+        //绘制第一个触点
+        this.context.beginPath();
+        this.context.fillStyle = this.lineColor;
+        this.context.arc((2*this.input[0].x+1)*this.xunit, (2*this.input[0].y+1)*this.yunit, this.radius/2, 0, 2 * Math.PI, true);
+        this.context.fill();
+        this.context.closePath();
+        this.context.beginPath();
+        this.context.strokeStyle = this.pointBorderColor;
+        this.context.arc((2*this.input[0].x+1)*this.xunit, (2*this.input[0].y+1)*this.yunit, this.radius, 0, 2 * Math.PI, true);
+        this.context.stroke();
+        this.context.closePath();
+      }
       if (this.input.length > 0) this.input.reduce((prev, next) => this.drawLine(prev, next));
       this.lineColor = tempLine;
       this.pointBorderColor = tempPoint;
